@@ -1,0 +1,65 @@
+{
+	"blt_version" : 2,
+	"name" : "Extra Scripts",
+	"description" : "Things I've grabbed from the internet and made them work somehow",
+    "image" : "That face.png"
+	"author" : "Nobody",
+	"version" : "1.0",
+	
+	"keybinds" : [
+        {
+            "keybind_id" : "giver_key",
+            "name" : "Giver",
+            "description" : "The key that activates the giver"
+            "script_path" : "CCGiver.lua",
+            "run_in_menu" : true,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "waypoints_key",
+            "name" : "Waypoints",
+            "description" : "The key that puts an waypoint on everything"
+            "script_path" : "waypoints.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "ultimate_kill_key",
+            "name" : "Ultimate Kill",
+            "description" : "The key that kills everything on the map"
+            "script_path" : "Ultimate Kill.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "xray_key",
+            "name" : "XRay",
+            "description" : "The key that activates the xray"
+            "script_path" : "Xray.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "cables_key",
+            "name" : "Infinite Cable Ties",
+            "description" : "The key that activates the infinite lasting cable ties"
+            "script_path" : "cables.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        },
+		{
+            "keybind_id" : "InstantDrill_key",
+            "name" : "Instant Drill",
+            "description" : "The key that activates the instant drilling"
+            "script_path" : "Instant Drill.lua",
+            "run_in_menu" : false,
+            "run_in_game" : true,
+            "localized" : false
+        }
+    ]
+}
